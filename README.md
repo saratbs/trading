@@ -1,7 +1,3 @@
-
-2. Update your [README.md](http://_vscodecontentref_/0) with development guidelines:
-
-````markdown
 # Trading Bot Project
 
 ## Development Guidelines
@@ -16,11 +12,22 @@
 ```
 trading/
 ├── src/
+│   ├── __init__.
+|   |── config.py
 │   ├── data/
+│   │   └── __init__.py
+|   |   └── data_fetcher.py
 │   ├── strategies/
+│   │   └── __init__.py
+|   |   └── strategy.py
 │   └── utils/
+│       └── __init__.py
+|       └── helpers.py
 ├── tests/
-└── docs/
+│   └── conftest.py
+|   └── test_strategy.py
+├── docs/
+└── requirements.txt
 ```
 
 ### Getting Started
