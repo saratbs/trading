@@ -1,0 +1,16 @@
+# Data manipulation and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+yfinance>=0.1.70
+
+# Technical analysis
+ta-lib>=0.4.24
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Development tools
+python-dotenv>=0.19.0
+black>=22.3.0
+mypy>=0.981
